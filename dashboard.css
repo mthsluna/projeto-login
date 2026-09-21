@@ -1,0 +1,64 @@
+body.pagina-interna {
+  display: block;
+  height: auto;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.topo {
+  background-color: #1f1f1f;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.topo h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.menu a {
+  color: #03dac6;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.card {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 160px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  color: #bbb;
+}
+
+.card p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #03dac6;
+}
