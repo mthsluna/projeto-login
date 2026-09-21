@@ -12,6 +12,9 @@ form.addEventListener("submit", (e) => {
   } else if (usuario.value === "adm" && senha.value === "123") {
     mensagem.style.color = "#03dac6";
     mensagem.textContent = "Login realizado com sucesso!";
+    setTimeout(() => {
+      window.location.href = "dashboard.html";
+    }, 1000);
   } else {
     mensagem.style.color = "#ff5252";
     mensagem.textContent = "Usuário ou senha incorretos.";
